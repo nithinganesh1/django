@@ -1,0 +1,116 @@
+button{
+    background: greenyellow;
+    color:rgb(92, 92, 8);
+    display: inline-block;
+    border-radius: 4px;
+}
+#parra1{
+    color: black;
+    font-family: Sans-serif;
+    font-size: 16px;
+    float:left;
+}
+.git {
+    width: 500px;
+    margin: 0 auto;
+    border: 3px solid rgb(13, 127, 32);
+    float:left;
+  }
+
+  label {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .Table{
+    float:left
+
+  }
+  thead {
+    border: 1px solid black;
+    background-color: #2777aa;
+    font-weight: bold;
+    color: black;
+  }
+  .input {
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #options{
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .div1 {
+    float: left;
+    width: 800px;
+  }
+  .div1 a {
+    color: rgb(0, 1, 11);
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: Georgia, serif;
+  }
+  .div2 {
+    float: right;
+    margin-right: 100px;
+  }
+  .div3 {
+    color: black;
+    background-color:greenyellow;
+    border: 1px solid black;
+    width: 250px;
+    margin-left: 365px;
+    height: 277px;
+    float: left;
+  }
+  .div3 a{
+    color: #181b1e;
+  }
+  .div3 h2{
+    margin-left: 80px;
+  }
+  #d {
+    display: grid;
+    border: 1px solid black;
+    background-color: greenyellow;
+    float: left;
+  }
+  
+  #d label {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  #d input, #d select {
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  #d button {
+    width: 20%;
+    height: 30px;
+    background-color: #0dcf6e;
+    color: white;
+    border: none;
+    margin-left:80px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #d h2{
+    text-align: center;
+  }
+  
+  #d video {
+    margin-top: 4.5px;
+  }
+  
+  .t{
+    text-align:justify ;
+  }
+  body{
+    background-image: url(https://github.com/nithinganesh1/django/blob/main/html/pexels-pixabay-533971.jpg?raw=true);
+  }
+  
