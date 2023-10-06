@@ -9,7 +9,7 @@ This page contains the code that I am using to learn HTML and CSS. I am trying t
 ### DAY5 FACEBOOK LOGIN PAGE!
 I tried to recreate the original Facebook login page as closely as possible. I used the same font, color, and border style for the login button. I also centered the button on the page and added a white background.
 this is how orgianl Loging page look like 
-<img src ="https://github.com/nithinganesh1/django/assets/122164879/fd2e922c-13cd-4d0a-88f6-50852938bcc0" width="800">\n
-This is Mine👇\n
+<img src ="https://github.com/nithinganesh1/django/assets/122164879/fd2e922c-13cd-4d0a-88f6-50852938bcc0" width="800">"\n"
+This is Mine👇\n<br>
 <img src="https://github.com/nithinganesh1/django/assets/122164879/1020239f-ddbf-4aa3-9149-4103f5695e5d" width="800">
 
