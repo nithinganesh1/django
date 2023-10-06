@@ -4,3 +4,9 @@ This page contains the code that I am using to learn HTML and CSS. I am trying t
 
 #### DAY4 RESULT
 ![DAY4 RESULT](https://github.com/nithinganesh1/django/assets/122164879/dd52e2a2-9d1f-4da4-8841-206e0f03cfdf)
+
+### DAY5 FACEBOOK LOGIN PAGE!
+I tried to recreate the original Facebook login page as closely as possible. I used the same font, color, and border style for the login button. I also centered the button on the page and added a white background.
+this is how orgianl Loging page look like 
+![facebook](https://github.com/nithinganesh1/django/assets/122164879/fd2e922c-13cd-4d0a-88f6-50852938bcc0)![myfbpage](https://github.com/nithinganesh1/django/assets/122164879/1020239f-ddbf-4aa3-9149-4103f5695e5d)
+
