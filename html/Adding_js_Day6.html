@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script</title>
+</head>
+<body>
+    <h1>Button1: Just Print</h1>
+    <button onclick="Show()">click</button>
+    <script>
+        function Show(){
+            console.log("Button Clicked")
+        }
+    </script>
+    <h1>Button2: Sum Function</h1>
+    <button onclick="sum()">Sum</button>
+    <script>
+        function sum(){
+            var a=5
+            var b=10
+            var sum = a+b
+            console.log("Sum="+sum)
+        }
+    </script>
+    <h1>Button3: Sum Function</h1>
+    <button onclick="javasc()">javas</button>
+    <script>
+        function javasc(){
+            const e=10
+            if (e%2==0){
+                console.log("Number is Even")
+            }else{
+                console.log("Number is odd")
+            }
+            for(var i=0;i<=10;i++){
+            console.log(i)
+            }
+        var arr=["apple","orange",15]
+        console.log(arr[2])
+
+        var me={
+            Name:"Nithin",
+            Age:21,
+            Do:"Looking for a job"
+        }
+        console.log(me)
+        console.log("name: "+me.Name)
+        }
+        
+    </script>
+</body>
+</html>
