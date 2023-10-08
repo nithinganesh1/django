@@ -1,6 +1,6 @@
 
 This is a basic calculator that supports all basic mathematical operations, including addition, subtraction, multiplication, and division.
-I Added color in each Button
+I Added color in each Button \n
 Operators (yellow): +, -, *, /, =
 Numbers (gray): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 Clear (red): C
