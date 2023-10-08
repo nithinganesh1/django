@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java</title>
+</head>
+<body>
+    <h1 id="val">Type Anything</h1>
+    <input type="text" id="inp">
+    <button onclick="dispaly()">Click</button><br><br>
+    
+    <script>
+        function dispaly(){
+            var input = document.getElementById("inp").value
+            document.getElementById("val").innerHTML = input
+            alert("Title Changed")
+        }
+        function color(col){
+            document.getElementById('bgcol').style.background=col
+        }
+    </script>
+    <div id="bgcol">
+    </div><br>
+    <style>
+        #bgcol{
+            width:300px;
+            height:300px;
+            border: solid 1px;
+        }
+        button{
+            color: blue;
+            background-color: yellowgreen;
+        }
+    </style>
+    <button onclick="color('Red')">Red</button>
+    <button onclick="color('blue')">Blue</button>
+    <button onclick="color('Green')">Green</button>
+    <button onclick="color('Yellow')">Yellow</button>
+
+
+</body>
+</html>
