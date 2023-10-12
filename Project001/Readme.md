@@ -1,5 +1,24 @@
 # code2 
+
+Django templates allow you to create dynamic HTML pages populated with data from your Django application.
+
+Data placement: Use {{ variable_name }} to place data from variables into HTML.
+
+Variables: Variables are created by passing them to the render() function when rendering the template.
+
+Tags: Tags are used to control the flow of the template and perform other tasks, such as for loops and if statements.
+
+Filters: Filters are used to modify the output of variables, such as converting a string to uppercase.
+
+Here is an example of how to use these concepts together:
+```
+{% for anime in anime_list %}
+  <h2>Title: {{ anime.title | upper }}</h2>
+{% endfor %}
+```
+Using This i Created Following webpage
 ### view.py
+
 ```python
 from django.shortcuts import render
 from django.http import HttpResponse
