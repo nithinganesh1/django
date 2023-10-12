@@ -1,5 +1,6 @@
 # code2 
 ### view.py
+```python
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.shortcuts import render
@@ -24,6 +25,7 @@ def print_hello(request):
     }]}
 
     return render(request,"hello.html",anime_list)
+```
 
 ### hello.html
 
@@ -39,6 +41,7 @@ def print_hello(request):
     {% endif %}
     <hr>
 {% endfor %}
+```
 
 ### Output
 ![wb2](https://github.com/nithinganesh1/django/assets/122164879/eb0b8cd6-4da2-4b9d-a74c-1c325a352f43)
