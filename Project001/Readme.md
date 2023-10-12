@@ -26,11 +26,12 @@ def print_hello(request):
     return render(request,"hello.html",anime_list)
 
 ### hello.html
+
+```html
 {% for anime in animes %}
     <h2>Title : {{anime.title | upper }}</title></h2>
     <p>Summary : {{anime.Summary | default:'Summary Not Available'}} </p>
     <h3>Status : {{anime.status}} </h3>
-    
     {% if anime.age %}
         <p><b>13+ anime</b></p>
     {% else %}
